@@ -1,0 +1,25 @@
+{
+	"rules": {
+		"indent": [1, "tab"],
+		"quotes": [2, "single"],
+		"camelcase": ["error", {"properties": "never"}],
+		"linebreak-style": [2, "unix"],
+		"semi": [2, "never"],
+		"no-unused-vars": [1],
+		"no-console": [1],
+		"strict": [1, "global"],
+		"no-trailing-spaces": [1],
+		"eqeqeq": [2, "smart"],
+		"linebreak-style": [0]
+	},
+	"env": {
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+	"extends": "eslint:recommended",
+	"ecmaFeatures": {
+		"experimentalObjectRestSpread": true
+	},
+	"parser": "babel-eslint"
+}
