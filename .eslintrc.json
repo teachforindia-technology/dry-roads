@@ -18,8 +18,5 @@
 		"mocha": true
 	},
 	"extends": "eslint:recommended",
-	"ecmaFeatures": {
-		"experimentalObjectRestSpread": true
-	},
 	"parser": "babel-eslint"
 }
