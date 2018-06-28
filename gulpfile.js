@@ -1,11 +1,10 @@
 const gulp = require('gulp')
 
+const tasks = require('./lib/tasks')
+
 gulp.task('lint', () => {
-	const eslint = require('gulp-eslint')
-	return gulp
-		.src(['**/*.js', '!node_modules/**'])
-		.pipe(eslint({ignorePattern: 'dist'}))
-		.pipe(eslint.format())
+	const source = ['**/*.js', '!node_modules/**']
+	tasks.lint({source})
 })
 
 gulp.task('publish', ['lint'])
