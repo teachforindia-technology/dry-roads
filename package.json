@@ -6,7 +6,7 @@
 	"author":
 		"Technology - Teach For India <gauraang.bhartiya@teachforindia.org>",
 	"contributors": ["Gauraang <gauraang.bhartiya@teachforindia.org>"],
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/teachforindia-technology/dry-roads.git"
