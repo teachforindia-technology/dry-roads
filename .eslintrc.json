@@ -1,7 +1,7 @@
 {
 	"rules": {
 		"indent": [1, "tab", {"SwitchCase": 1}],
-		"quotes": [2, "single"],
+		"quotes": [2, "single", {"avoidEscape": true}],
 		"camelcase": ["error", {"properties": "never"}],
 		"linebreak-style": [2, "unix"],
 		"semi": [2, "never"],
