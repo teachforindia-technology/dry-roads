@@ -7,7 +7,7 @@
 	"contributors": [
 		"Gauraang <gauraang.bhartiya@teachforindia.org>"
 	],
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/teachforindia-technology/dry-roads.git"
@@ -42,6 +42,7 @@
 		"gulp-uglify": "^3.0.0",
 		"jsonfile": "^4.0.0",
 		"lodash": "^4.17.10",
+		"moment-timezone": "^0.5.23",
 		"webpack": "^3.11.0"
 	},
 	"devDependencies": {
