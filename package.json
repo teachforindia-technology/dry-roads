@@ -7,7 +7,7 @@
 	"contributors": [
 		"Gauraang <gauraang.bhartiya@teachforindia.org>"
 	],
-	"version": "0.0.8",
+	"version": "0.0.13",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/teachforindia-technology/dry-roads.git"
@@ -26,6 +26,7 @@
 		"babel-core": "^6.26.3",
 		"babel-eslint": "^8.2.3",
 		"babel-preset-env": "^1.7.0",
+		"bunyan": "^1.8.12",
 		"cross-spawn": "^6.0.5",
 		"dot-object": "^1.7.0",
 		"eslint-plugin-react": "^7.8.2",
@@ -43,6 +44,7 @@
 		"jsonfile": "^4.0.0",
 		"lodash": "^4.17.10",
 		"moment-timezone": "^0.5.23",
+		"request-promise": "^4.2.2",
 		"webpack": "^3.11.0"
 	},
 	"devDependencies": {
