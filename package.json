@@ -7,7 +7,7 @@
 	"contributors": [
 		"Gauraang <gauraang.bhartiya@teachforindia.org>"
 	],
-	"version": "0.0.15",
+	"version": "0.2.4",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/teachforindia-technology/dry-roads.git"
@@ -22,30 +22,10 @@
 		}
 	],
 	"dependencies": {
-		"async": "^2.6.1",
-		"babel-core": "^6.26.3",
-		"babel-eslint": "^8.2.3",
-		"babel-preset-env": "^1.7.0",
 		"bunyan": "^1.8.12",
-		"cross-spawn": "^6.0.5",
-		"dot-object": "^1.7.0",
-		"eslint-plugin-react": "^7.8.2",
-		"fancy-log": "^1.3.2",
-		"gulp": "^3.9.1",
-		"gulp-babel": "^7.0.1",
-		"gulp-download": "0.0.1",
-		"gulp-eslint": "^4.0.2",
-		"gulp-htmlmin": "^4.0.0",
-		"gulp-inline-source": "^3.1.0",
-		"gulp-nodemon": "^2.2.1",
-		"gulp-rename": "^1.2.3",
-		"gulp-template": "^5.0.0",
-		"gulp-uglify": "^3.0.0",
-		"jsonfile": "^4.0.0",
-		"lodash": "^4.17.11",
 		"moment-timezone": "^0.5.23",
-		"request-promise": "^4.2.2",
-		"webpack": "^3.11.0"
+		"request": "^2.88.0",
+		"request-promise": "^4.2.2"
 	},
 	"devDependencies": {
 		"husky": "^0.14.3",
@@ -53,12 +33,11 @@
 		"pretty-quick": "^1.6.0"
 	},
 	"scripts": {
-		"precommit": "pretty-quick --staged",
-		"prepublishOnly": "gulp publish"
+		"precommit": "pretty-quick --staged"
 	},
 	"keywords": [],
 	"homepage": "",
 	"engines": {
-		"node": ">=8.11.1"
+		"node": ">=12.14.1"
 	}
 }
